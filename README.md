@@ -1,4 +1,4 @@
-# Multipass Technical Test`
+# Multipass Technical Test
 
 This project implements a small C++ program that fetches Ubuntu release data from the official **Simplestreams** JSON feed. It then provides:
 
