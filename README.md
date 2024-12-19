@@ -14,9 +14,22 @@ Requirements:
 - libcurl
 
 Steps:
+### Mac / Linux
 ```bash
 mkdir build
 cd build
 cmake ..
 make
 ./canonical
+```
+### Windows
+Note: The windows installation is untested as I do not currently have access to a windows machine set up for development.
+```bash
+mkdir build
+cd build
+cmake -G "Visual Studio 17 2022" -A x64 ..
+cmake --build . --config Release
+.\Release\canonical.exe
+```
+
+

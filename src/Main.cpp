@@ -36,7 +36,6 @@ int main(int argc, char* argv[]) {
 
   std::string arg1 = argv[1];
   if (arg1 == "--list") {
-    std::cout << "list" << std::endl;
     auto releases = info->getSupportedReleases();
     for (auto& rel : releases) {
       std::cout << rel << std::endl;
