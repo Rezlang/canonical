@@ -32,4 +32,7 @@ cmake --build . --config Release
 .\Release\canonical.exe
 ```
 
+Github: https://github.com/Rezlang/canonical
+
+Thank you for the opportunity to demonstrate my C++ skills through this project. I am excited about the prospect of advancing to the next stage of the interview process and contributing to Canonical as soon as possible.
 
